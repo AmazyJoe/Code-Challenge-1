@@ -1,0 +1,25 @@
+//here is an example of a solution for code 1
+//Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade as follows: 
+//A > 79, B > 60 to 79, C > 59 to 49, D > 40 to 49, E > less 40.
+
+
+//solution to this challenge is in this code.
+let learnerMarks= parseInt(prompt('Key in a value not greater than 100'));
+function gaugeLearnerGrade(marks){
+    if (marks >100){
+        return "Value above maximum threshold!"
+    }else if(marks >79){
+        return "You scored an A"
+    }else if (marks>=60 && marks<=79){
+        return "You scored a B"
+    }else if (marks <=59 && marks >=49){
+        return "You scored a C"
+    }else if(marks <=49 && marks >=40){
+        return "You scored a D"
+    }else if(marks <40){
+        return "You scored an E"
+    }else{
+        return "Key in a value equal to or less than 100!"
+    }
+}
+console.log(gaugeLearnerGrade(marks));
