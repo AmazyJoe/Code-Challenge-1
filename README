@@ -10,6 +10,29 @@ That means we also need to take careof those who may pass in a value past 100.Fo
  let learnerMarks= parseInt(prompt('key in a value not greater than 100'));
  After this create another function which now takes in a parameterof the integers,the name you give it is up to you but in our case we will call it MARKS. For the parameter.In our first value, a number greater than 100 is what we will first sort out in case someone gives past 100, then come back to the rubrics because the maximumthreshold given is 100.
 
+ let learnerMarks= parseInt(prompt('write sth about the values'));
+function your function(parameter name){
+    if (p.n>100){
+        return "Value above maximum threshold!"
+    }else if(p.n >79){
+        return "You scored an A"
+    }else if (pn>=60 && marks<=79){
+        return "You scored a B"
+    }else if (pn <=59 && marks >=49){
+        return "You scored a C"
+    }else if(pn <=49 && marks >=40){
+        return "You scored a D"
+    }else if(pn<40){
+        return "You scored an E"
+    }else{
+        return "Key in an integer!"
+    }
+}
+console.log(gaugeLearnerGrade(pn));
+
+
+//just a basic copy paste from my code to help understand the concept in case you can't get to the code.
+
 
 Challenge 2: Speed Detector (Toy Problem)
 Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
@@ -19,3 +42,18 @@ For example, if the speed is 80, it should print: “Points: 2”. If the driver
 Here,it gets a littlebit technical but hey!more fun. It needs us to just think out of the box a little bit.
 We equally focus on Javascript -if ststements also known as conditionals but again we have to get into some arithmetics.ie we have the concepts on 1 demerit point awarded on ascale of every 5km/sabove the limit. We can get these points by using operators like subtraction to get the additionalor maximum speed above 70(our speed limit). After that we divide the maximum by 5 to get the number of points ,create a function for that and eventually,12points and above should give a LICENSE SUSPENDED alert.Speed less than 70 awards an 'Ok'.Here too, we will declare our variable and also pass in a prompt ,assuming someone gets into the site and may need to key in their values.
 Our core aim is to develop an algorithm that subtracts speed entered from70 if it'spast 70 and divides by 5 to get the demerritpoints.We thus introduce a new variable within the speed to link the points.We will call that newSpeed.
+That's just how to dust it. An example is here below.
+const x=parseInt(prompt('y'));
+function r(parameter){
+    if (parameter name<= 70){
+        return "Ok"
+    }else if(parameter name>70){
+        //bring in points idea
+        let points=(parameter name - 70)/5
+
+        if (points >=12){
+            return "License suspended"
+        }
+      }
+}
+console.log(carFastness(parameter name));
