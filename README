@@ -1,0 +1,11 @@
+Challenge 1: Student Grade Generator (Toy Problem)
+Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade as follows: 
+
+A > 79, B > 60 to 79, C > 59 to 49, D > 40 to 49, E > less 40.
+
+Here, we are mainly going to focus on Javascript conditionals. The if, if else and else statements that give conditions.
+First ,to begin with,let's assume our students are here for a purpose,know their grades. Thus they must be prompted to key in a figure for the answer they want.
+That is exactly why we first declare our variable and in this variable,we now declare a function that prompts in the user to pass in an iteger valued from 0 and 100.
+That means we also need to take careof those who may pass in a value past 100.For example:
+ let learnerMarks= parseInt(prompt('key in a value not greater than 100'));
+ After this create another function which now takes in a parameterof the integers,the name you give it is up to you but in our case we will call it MARKS. For the parameter.In our first value, a number greater than 100 is what we will first sort out in case someone gives past 100, then come back to the rubrics because the maximumthreshold given is 100.
