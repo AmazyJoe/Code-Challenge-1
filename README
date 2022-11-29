@@ -10,6 +10,15 @@ This work has been fully and duelly done by myself, Joseph Oluoch. Having schedu
 
 
 
+Challenge 3: Net Salary Calculator (Toy Problem)
+Given the basic salary and benefits of an employee, write a program that would calculate the Payee Tax, NHIF, NSSF Deductions and net salary.
+
+NB: Use KRA, NHIF, and NSSF values provided in the link below.
+
+https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.  
+
+https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
+-So here again its about going through the salary and we will use alittle bit of loops and conditionals. We also need to go arithmetic because we need to find the salary, add it to the benefits ie overtime. From that we now have what to deduct expenses ie NSSF,NHIF,PAYE etc from.After knowing how much is deducted from the gross salary,weget the net pay and note that otherwise symbolises else condition. .We also need to prompt the user to key in their salary so that they get their output.
 
 
 
